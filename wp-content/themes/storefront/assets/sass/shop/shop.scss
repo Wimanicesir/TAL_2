@@ -1,0 +1,129 @@
+.sku_wrapper,
+.quantity,
+.widgettitle,
+.storefront-product-pagination {
+  display: none !important;
+}
+
+.shop_attributes {
+  td {
+    padding-left: 20px;
+
+    p {
+      padding-top: 15px;
+    }
+  }
+
+  th {
+    background-color: inherit;
+  }
+}
+
+.price_label {
+  text-align: left;
+}
+
+// WIDGETS
+
+.filters {
+  margin-top: 50px;
+  min-height: 80px;
+  height: 10vh;
+
+  .widget_price_filter {
+    float: left;
+    width: 300px !important;
+    list-style: none;
+    position: relative;
+    width: 90px;
+    font-size: 13px;
+
+    button {
+      position: absolute;
+      right: 0;
+    }
+  }
+
+  .widget_product_search {
+    position: absolute;
+    left: calc(50% - 10vw);
+    list-style: none;
+
+    .screen-reader-text {
+      display: none !important;
+    }
+
+    .search-field {
+      padding-left: 10px !important;
+      width: 20vw !important;
+    }
+
+    .woocommerce-product-search {
+      &::before {
+        right: 5px;
+        top: 5px;
+        left: inherit;
+      }
+    }
+
+    button {
+      display: none;
+    }
+  }
+
+}
+// Product
+.woocommerce-product {
+  &-galery {
+    &__image {
+      text-align: center;
+    }
+  }
+}
+
+// Overview
+.products {
+  .product {
+    &:hover {
+      .attachment-woocommerce_thumbnail {
+        bottom: 10px;
+        transition: bottom $default-time ease-in;
+      }
+    }
+  }
+
+  .woocommerce-LoopProduct-link.woocommerce-loop-product__link:hover {
+    text-decoration: none;
+
+    h2 {
+      color: $dark-red;
+    }
+
+    .price {
+      color: $dark-blue;
+    }
+  }
+
+  .attachment-woocommerce_thumbnail {
+    bottom: 0;
+    position: relative;
+    transition: bottom $default-time ease-in;
+  }
+
+  .woocommerce-loop-product__title {
+    font-weight: bold !important;
+  }
+
+  .button.product_type_variable.add_to_cart_button {
+    display: none;
+  }
+}
+
+
+// Related product
+
+.storefront-product-pagination {
+  .attachment-woocommerce_thumbnail.size-woocommerce_thumbnail.wp-post-image {
+    height: 100%;
+  }
+}

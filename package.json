@@ -1,0 +1,16 @@
+{
+  "name": "tal",
+  "version": "1.0.0",
+  "description": "The animation library",
+  "main": "index.php",
+  "dependencies": {
+    "bootstrap-sass": "^3.3.7",
+    "node-sass": "^4.9.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

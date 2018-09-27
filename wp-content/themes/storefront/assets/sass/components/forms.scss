@@ -1,0 +1,22 @@
+.response {
+    padding-bottom: 20px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.half-line{
+    width: 40% !important;
+}
+
+#mce-success-response{
+    color:white;
+}
+
+#mce-error-response{
+    color: $light-red;
+}
+
+.mce_inline_error {
+    border: 1px solid red !important;
+}
