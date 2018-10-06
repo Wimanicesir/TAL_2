@@ -12,6 +12,13 @@
 <html <?php language_attributes(); ?>>
 
 <head>
+	<!-- Google Tag Manager -->
+	<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-W2QDNTN');</script>
+	<!-- End Google Tag Manager -->
 	<meta charset="<?php bloginfo( 'charset' ); ?>">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2.0">
 	<link rel="profile" href="http://gmpg.org/xfn/11">
@@ -23,6 +30,10 @@
 </head>
 
 <body <?php body_class(); ?>>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-W2QDNTN"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
 
 	<?php do_action( 'storefront_before_site' ); ?>
 
@@ -60,30 +71,31 @@
 			</div>
 
 
-				<div class="login">
+			<div class="login">
 				<div class="login__button" data-toggle="collapse" data-target="#login-form">
 					<!--<i class="fa fa-user"></i>-->
 					<span>Log in</span>
 				</div>
 				<div class="login__form">
-				<form class="collapse" id="login-form">
-				<h2>Log in</h2>
-					<input type="text" placeholder="Username">
-					<br />
-					<input type="password" placeholder="Password">
-					<br />
-					<button action="submit">Login</button>
-					<br />
-					<a href="<?php echo wp_lostpassword_url( $redirect ); ?>">Forgot password?</a>
-					<div class="new-account">
-						<p>Don't have an account yet? <a href="<?php echo site_url('/wp-login.php?action=register&redirect_to=' . get_permalink());?>">Make one here</a></p>
-					</div>
-				</form>
-			</div>
-
+					<form class="collapse" id="login-form">
+						<h2>Log in</h2>
+						<input type="text" placeholder="Username">
+						<br />
+						<input type="password" placeholder="Password">
+						<br />
+						<button action="submit">Login</button>
+						<br />
+						<a href="<?php echo wp_lostpassword_url( $redirect ); ?>">Forgot password?</a>
+						<div class="new-account">
+							<p>Don't have an account yet? <a href="<?php echo site_url('/wp-login.php?action=register&redirect_to=' . get_permalink());?>">Make
+									one here</a></p>
+						</div>
+					</form>
 				</div>
 
-			
+			</div>
+
+
 
 		</header><!-- #masthead -->
 
