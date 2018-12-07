@@ -108,6 +108,31 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 				}
 				?>
 
+<<<<<<< HEAD
+=======
+			<div class="login">
+				<div class="login__button" data-toggle="collapse" data-target="#login-form">
+					<!--<i class="fa fa-user"></i>-->
+					<span>Log in</span>
+				</div>
+				<div class="login__form">
+					<form class="collapse" id="login-form">
+						<h2>Log in</h2>
+						<input type="text" placeholder="Username">
+						<br />
+						<input type="password" placeholder="Password">
+						<br />
+						<button action="submit">Login</button>
+						<br />
+						<a href="<?php echo wp_lostpassword_url( $redirect ); ?>">Forgot password?</a>
+						<div class="new-account">
+							<p>Don't have an account yet? <a href="<?php echo site_url('/wp-login.php?action=register&redirect_to=' . get_permalink());?>">Make
+									one here</a></p>
+						</div>
+					</form>
+				</div>
+
+>>>>>>> cd93a433ef60ec2e7982efb7af72319d4ba74342
 			</div>
 
 
