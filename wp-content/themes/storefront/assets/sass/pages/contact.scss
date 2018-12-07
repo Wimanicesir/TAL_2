@@ -1,0 +1,54 @@
+.contact {
+
+    &__left {
+        background-color: $light-green;
+
+        &__form {
+
+            @media screen and (max-width:990px) {
+                text-align: center;
+                margin: 40px 0 !important;
+                button {
+                    margin: 10px auto !important;
+                }
+            }
+
+
+            margin-left: 100px;
+            margin-top: 80px;
+
+            h2 {
+                font-size: 25px;
+                color: $light-yellow;
+                text-transform: uppercase;
+            }
+
+            input {
+                margin-bottom: 10px;
+                padding-left: 10px;
+                width: 85%;
+            }
+
+            textarea {
+                width: 85%;
+                height: 170px;
+            }
+
+            button {
+                margin-top: 10px;
+                margin-left: 0;
+            }
+        }
+    }
+
+    &__right {
+        @media screen and (max-width:990px) {
+display: none;
+        }
+        img {
+            width: 100%;
+            min-height: 500px;
+        }
+    }
+
+}

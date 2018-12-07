@@ -11,6 +11,9 @@
 // Welcome page
 @import "welcome";
 
+// Contact
+@import "pages/contact.scss";
+
 // Blog
 @import "pages/page-id-182.scss";
 
@@ -26,6 +29,7 @@
 // Shop
 @import "shop/shop";
 @import "shop/basket";
+@import "shop/detail";
 
 // Login
 @import "login/login";

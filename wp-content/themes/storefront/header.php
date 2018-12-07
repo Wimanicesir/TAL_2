@@ -107,9 +107,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <?php
 				}
 				?>
-
-<<<<<<< HEAD
-=======
 			<div class="login">
 				<div class="login__button" data-toggle="collapse" data-target="#login-form">
 					<!--<i class="fa fa-user"></i>-->
@@ -132,7 +129,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 					</form>
 				</div>
 
->>>>>>> cd93a433ef60ec2e7982efb7af72319d4ba74342
 			</div>
 
 

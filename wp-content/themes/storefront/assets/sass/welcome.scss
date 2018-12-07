@@ -20,7 +20,7 @@
     position: relative;
 
 
-    video {
+    img {
       width: 100%;
     }
 
@@ -55,7 +55,7 @@
   }
 
   &__intro {
-    background-color: $light-blue;
+    background-color: $dark-blue;
 
     &__title {
       h2 {

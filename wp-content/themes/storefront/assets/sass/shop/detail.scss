@@ -1,0 +1,70 @@
+.single-product {
+    .storefront-breadcrumb {
+        display: none;
+    }
+
+    .site-content {
+        margin-top: 25px;
+    }
+
+    .summary.entry-summary {
+
+        .variations {
+            .label {
+                display: none;
+            }
+            select {
+                background-color: $dark-blue;
+                border: 0;
+                -webkit-appearance: none;
+                -moz-appearance: none;
+                text-indent: 1px;
+                text-overflow: '';
+                color: white;
+            }
+
+        }
+        .woocommerce-variation-price {
+            position: absolute;
+            top: 40px;
+            color: $dark-blue;
+            font-size: 25px;
+        }
+
+        .price,
+        .download-credits,
+        .woocommerce-product-details__short-description,
+        .product_meta,
+        .woocommerce-variation-description {
+            display: none;
+        }
+
+        @media screen and (min-width:990px) {
+            //  transform: translateX(-110px);
+        }
+
+        h1,
+        h2 {
+            color: $dark-blue;
+            margin-bottom: 30px;
+        }
+
+        button {
+            cursor: pointer;
+            background-color: $dark-blue;
+            border: 0;
+            padding: 10px 20px;
+        }
+    }
+
+    .related.products {
+        background-color: $light-blue;
+        padding-top: 20px;
+
+        h2 {
+            text-align: center;
+            color: $dark-blue;
+        }
+    }
+
+}

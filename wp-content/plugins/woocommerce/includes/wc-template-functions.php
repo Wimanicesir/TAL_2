@@ -2760,11 +2760,10 @@ if ( ! function_exists( 'wc_dropdown_variation_attribute_options' ) ) {
 			'options'          => false,
 			'attribute'        => false,
 			'product'          => false,
-			'selected'         => false,
+			'selected'         => true,
 			'name'             => '',
 			'id'               => '',
-			'class'            => '',
-			'show_option_none' => __( 'Choose an option', 'woocommerce' ),
+			'class'            => ''
 		) );
 
 		// Get selected value.
