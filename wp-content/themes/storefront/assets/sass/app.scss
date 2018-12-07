@@ -7,18 +7,36 @@
 @import "fonts";
 @import url("https://fonts.googleapis.com/css?family=Raleway:300,400,600");
 
+// Pages
 // Welcome page
 @import "welcome";
+
+// Blog
+@import "pages/page-id-182.scss";
+
+// Privacy Policy
+@import "pages/page-id-3.scss";
+
+// Terms Of Use
+@import "pages/page-id-167.scss";
 
 // Social buttons
 @import "layout/social";
 
 // Shop
 @import "shop/shop";
+@import "shop/basket";
+
+// Login
+@import "login/login";
+
+
+
 
 // Layout
-@import "layout/header";
 @import "layout/layout";
+@import "layout/header";
+@import "layout/footer";
 
 // Bootstrap    
 //@import "~bootstrap-sass/assets/stylesheets/bootstrap";

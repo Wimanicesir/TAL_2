@@ -72,7 +72,7 @@ if ( version_compare( get_bloginfo( 'version' ), '4.7.3', '>=' ) && ( is_admin()
 */
 
 
-
+add_action('login_head', 'my_custom_css');
 add_action( 'wp_enqueue_scripts', 'enqueue_load_fa' );
 add_action( 'after_setup_theme', 'register_multiple_widget_areas' );
 add_action( 'after_setup_theme', 'remove_woocommerce_theme_support', 20 );
@@ -101,4 +101,46 @@ function register_multiple_widget_areas()
         'description'   => 'Adds a price filter'
         )
     );
+}
+
+
+add_filter( 'woocommerce_checkout_fields' , 'custom_override_checkout_fields' );
+add_filter( 'login_headerurl', 'custom_login_logo_url' );
+add_filter( 'login_headertitle', 'custom_login_logo_url_title' );
+add_filter('login_errors', 'custom_login_error_message');
+
+function custom_override_checkout_fields( $fields ) {
+    unset($fields['billing']['billing_address_1']);
+    unset($fields['billing']['billing_address_2']);
+    unset($fields['billing']['billing_city']);
+    unset($fields['billing']['billing_postcode']);
+    unset($fields['billing']['billing_country']);
+    unset($fields['billing']['billing_state']);
+    unset($fields['billing']['billing_phone']);
+    unset($fields['billing']['billing_address_2']);
+    unset($fields['billing']['billing_postcode']);
+    unset($fields['billing']['billing_company']);
+    unset($fields['billing']['billing_city']);
+    return $fields;
+}
+
+function my_custom_css()
+{
+echo '<link rel="stylesheet" type="text/css" href="' . get_bloginfo('stylesheet_directory') . '/assets/css/app.css" />';
+}
+
+
+function custom_login_logo_url() {
+    return get_bloginfo( 'url' );
+    }
+
+    
+    function custom_login_logo_url_title() {
+    return 'The Animation Library';
+    }
+
+
+    function custom_login_error_message()
+{
+return 'Please enter valid login credentials.';
 }

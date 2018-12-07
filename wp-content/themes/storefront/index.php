@@ -50,6 +50,7 @@ $shop_page_url = get_permalink( woocommerce_get_page_id( 'shop' ) );
             </div>
         </div>
         <div class="welcome__splash">
+        <h2 class="welcome__splash__title">The Animation Library</h2>
             <video autoplay muted loop id="myVideo">
                 <source src="<?php echo get_stylesheet_directory_uri(); ?>/assets/videos/header.mp4" type="video/mp4">
             </video>

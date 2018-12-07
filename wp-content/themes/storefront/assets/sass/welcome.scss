@@ -16,24 +16,25 @@
 
 .welcome {
   &__splash {
-    background: $dark-blue;
+    background: $light-blue;
     position: relative;
+
 
     video {
       width: 100%;
     }
 
     &__title {
-      padding-top: 150px;
-
-      h2 {
-        font-family: headerFont;
-        color: $light-yellow;
-        font-size: 80px;
-        letter-spacing: 0.3em;
-        text-align: center;
-        text-shadow: rgba(255, 255, 255, 0.6) 1px 1px 1px, rgba(0, 0, 0, 0.6) -1px -1px 1px;
-      }
+      font-family: headerFont;
+      color: $light-yellow;
+      text-align: center;
+      text-shadow: rgba(255, 255, 255, 0.6) 1px 1px 1px, rgba(0, 0, 0, 0.6) -1px -1px 1px;
+      position: absolute;
+      left: 50%;
+      transform: translateX(-50%);
+      top: 42%;
+      font-size: 5.5vw;
+      color: $light-yellow;
     }
 
     &__button {
@@ -54,7 +55,7 @@
   }
 
   &__intro {
-    background-color: $dark-blue;
+    background-color: $light-blue;
 
     &__title {
       h2 {
@@ -113,7 +114,6 @@
         &__description {
           padding-top: 40%;
           font-size: 20px;
-
         }
       }
 
@@ -261,7 +261,7 @@
   }
 
   &__tips {
-    background-color: $light-blue;
+    background-color: $dark-blue;
     padding-bottom: 40px;
 
     &__title {
@@ -324,7 +324,7 @@
       text-align: center;
 
       @media (max-width: 991.98px) {
-        background-image: url('http://127.0.0.1/wordpress/wp-content/themes/storefront/assets/images/layout/about.jpg');
+        background-image: url($image-location +'/layout/about.jpg');
         background-position: center;
         background-size: cover;
 

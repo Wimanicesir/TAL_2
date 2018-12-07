@@ -1,0 +1,45 @@
+.TAL-footer {
+    border-top: 0.5px solid rgba(1, 1, 1, 0.1);
+    padding-top: 10px;
+
+    &__links {
+        @media screen and (max-width: 1050px) {
+            display:none;
+        }
+        list-style: none;
+        margin-top: 25px;
+
+        li {
+            float: left;
+            padding: 5px 10px;
+
+            a {
+                color: black;
+
+                &:hover {
+                    color: $dark-red;
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+
+    &__cta {
+         margin-right: 75px;
+        h4{
+            text-align: right;
+            font-size: 20px;
+        }
+        input {
+            float:right;
+        }
+        button {
+            height: 27px;
+            float: right;
+            margin-left: 20px;
+            p {
+                padding-top:2px;
+            }
+        }
+    }
+}

@@ -61,10 +61,29 @@
   right: 150px;
   top: 22px;
 
+  .count{
+    position: absolute;
+    top: 12px;
+    right: 20px;
+  }
+  
+  .woocommerce-Price-amount{
+    display: none;
+  }
+
   @media (max-width: 1024px) {
     display: none;
   }
 
+}
+.woocommerce-mini-cart-item{
+  img{
+    display: none;
+  }
+}
+
+.cart-contents{
+  height: 126px !important;
 }
 
 // LOGIN
@@ -110,8 +129,11 @@
     }
 
   }
-
+  
   &__button {
+    @media (max-width: 1024px){
+      display: none;
+    }
     background-color: white;
     position: absolute;
     top: 44px;

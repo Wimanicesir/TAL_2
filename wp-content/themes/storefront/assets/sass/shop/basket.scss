@@ -1,0 +1,43 @@
+.cart_totals {
+    float: left !important;
+}
+
+.woocommerce-cart-form {
+    button {
+        color: white;
+        background-color: $dark-blue;
+        transition: background-color 0.5s ease;
+        border-radius: 0;
+
+        &:hover {
+            color: white;
+            background-color: $dark-blue;
+        }
+    }
+}
+
+.cart-subtotal {
+    span {
+        padding-left: 20px;
+    }
+}
+
+.cart-collaterals {
+
+    th {
+        padding-right: 100px;
+        padding-left: 20px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+
+    }
+
+    .checkout-button {
+        width: 706px;
+        height: 50px;
+        padding-top: 8px;
+        background-color: $dark-blue !important;
+        margin-top: 15px;
+    }
+
+}

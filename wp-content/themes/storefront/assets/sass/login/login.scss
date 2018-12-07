@@ -1,0 +1,101 @@
+body.login {
+    background-color: #045181;
+}
+
+.login h1 a {
+    text-indent: inherit !important;
+    background: inherit !important;
+    position: absolute;
+
+    left: 0;
+}
+
+.message.register {
+    display: none;
+}
+
+.login form {
+    box-shadow: none;
+    padding: 20px;
+}
+
+#login {
+    background:
+        #FFF;
+    margin: 50px auto;
+    padding: 40px 20px;
+    width: 400px;
+}
+
+.login label {
+    color:
+        #555;
+    font-size: 14px;
+}
+
+.login form .forgetmenot {
+    float: none;
+}
+
+#login form p.submit {
+    margin-top: 15px;
+}
+
+.login.wp-core-ui .button-primary {
+    background:
+        $light-green;
+    border-color:
+        $light-green;
+    box-shadow: 0 1px 0 $light-green;
+    color:
+        #FFF;
+    text-shadow: none;
+    float: none;
+    clear: both;
+    display: block;
+    width: 100%;
+    padding: 7px;
+    height: auto;
+    font-size: 15px;
+}
+
+
+.tml.tml-register, .tml-login {
+    width: 50vw;
+    margin: 25px 0;
+    min-width: 480px;
+}
+
+.tml-button {
+    width: 150px;
+    height: 50px;
+    margin: 0 auto;
+    display: block;
+    border: none;
+    cursor: pointer;
+    font-family: avenirDM;
+}
+
+.description.indicator-hint {
+    text-align: center;
+}
+.tml-links{
+    li{
+        list-style: none;
+        text-align: center;
+        transform: translateX(-20px);
+        a {
+            color: #000;
+            font-size: 16px;
+            padding: 0 10px;
+            font-weight: bold;
+    
+            &:hover {
+                color: $dark-red;
+                text-decoration: none;
+            }
+        }
+    }
+
+}
+
