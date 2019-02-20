@@ -244,7 +244,7 @@ $shop_page_url = get_permalink( woocommerce_get_page_id( 'shop' ) );
         </div>
         <div class="col-lg-4 d-none d-lg-block">
             <div class="welcome__about__image">
-                <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/layout/about.jpg">
+                <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/layout/about.png">
             </div>
         </div>
 

@@ -1,0 +1,25 @@
+.aws-wrapper {
+    margin-left: 300px;
+
+    @media (max-width: 1007px) {
+        margin-left: 0;
+    }
+}
+
+.aws-search-field {
+    height: 39px !important;
+}
+
+.aws-search-result {
+    margin-left: 270px;
+    width: calc(100% - 370px) !important;
+}
+
+.widget_aws_widget {
+    float: left;
+    width: calc(100% - 240px);
+    list-style: none;
+    @media (max-width: 1007px) {
+    width: 100%;
+      }
+}

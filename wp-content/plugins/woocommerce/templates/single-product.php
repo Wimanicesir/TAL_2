@@ -55,9 +55,7 @@ get_header( 'shop' ); ?>
 		 */
 		do_action( 'woocommerce_sidebar' );
 	?>
-<script>
-$('.entry-summary').append('<h1>Description</h2>')
-</script>
+
 
 <?php get_footer( 'shop' );
 

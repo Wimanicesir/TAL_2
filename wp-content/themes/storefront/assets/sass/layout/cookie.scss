@@ -1,0 +1,20 @@
+#cookie-notice {
+
+    #cn-accept-cookie {
+        background-color: $light-green;
+    }
+
+    #cn-refuse-cookie {
+        background-color: $light-red;
+    }
+
+    #cn-more-info {
+        background-color: $light-blue;
+    }
+
+    .cn-button {
+        border-radius: 0;
+        border: 0;
+        background-image: inherit;
+    }
+}

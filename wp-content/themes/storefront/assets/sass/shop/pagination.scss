@@ -1,0 +1,35 @@
+.woocommerce-pagination {
+    margin: 0 auto;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    bottom: 0;
+    left: 50%;
+    font-size: 20px;
+    cursor: pointer;
+    @media (max-width: 680px) {
+        width: 100%;
+    }
+
+    ul {
+        list-style: none !important;
+
+        li {
+            padding-right: 25px;
+            float: left;
+            a, span {
+                padding: 0 5px;
+                color: $dark-blue !important;
+                &:hover{
+                    text-decoration: none !important;
+                    color: $dark-red !important;
+                    background-color: inherit !important;
+                }
+            }
+            .current{
+                color: $dark-red !important;
+                background-color: inherit !important;
+            }
+            
+        }
+    }
+}

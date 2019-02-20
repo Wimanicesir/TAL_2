@@ -1,4 +1,4 @@
-// node-sass app.scss > ../css/app.css
+// cd C:\xampp\htdocs\wordpress\wp-content\themes\storefront\assets\sass && node-sass app.scss > ../css/app.css
 
 // Variables
 @import "variables";
@@ -30,17 +30,25 @@
 @import "shop/shop";
 @import "shop/basket";
 @import "shop/detail";
+@import "shop/filters";
+@import "shop/search";
+@import "shop/pagination";
 
 // Login
 @import "login/login";
 
-
-
+// My Account
+@import "my-account/my-account";
+@import "my-account/credits";
 
 // Layout
 @import "layout/layout";
 @import "layout/header";
 @import "layout/footer";
+
+
+// Cookie notice
+@import "layout/cookie";
 
 // Bootstrap    
 //@import "~bootstrap-sass/assets/stylesheets/bootstrap";
@@ -56,5 +64,3 @@
 @import "components/slider";
 @import "components/buttons";
 @import "components/forms";
-
-

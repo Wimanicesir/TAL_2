@@ -142,7 +142,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 	 * @hooked storefront_header_widget_region - 10
 	 * @hooked woocommerce_breadcrumb - 10
 	 */
-	do_action( 'storefront_before_content' ); ?>
+	//do_action( 'storefront_before_content' ); ?>
 <?php if(get_the_ID() !== 3 || get_the_ID() !== 182){ ?>
 		<div id="content" class="site-content" tabindex="-1">
 		<div class="wrapper">

@@ -12,9 +12,8 @@ body {
     font-family: avenirDM;
     overflow-x: hidden;
     max-width: 100%;
+    min-width: 412px;
 }
-
-
 
 h1,
 h2,
@@ -71,3 +70,62 @@ table th {
     }
 }
 
+.fake-button{
+    position: relative;
+    border: none !important;
+    background-color: inherit !important;
+    text-align: left !important;
+    padding: 0 !important;
+    width: 100%;
+    outline-color: white !important;
+    padding-left: 40px !important;
+    left: -40px;
+    h2 {
+        font-size: 25px;
+        margin-bottom: 10px !important;
+    }
+}
+
+.arrow {
+    position: absolute;
+    top: 7px;
+    left: 0px;
+    transition: all 0.2s ease-in;
+    cursor: pointer;
+    width: 20px;
+    
+}
+
+.rotate {
+    transform: rotate(-90deg);
+}
+
+
+
+.disableSelection {
+-webkit-touch-callout: none;
+-webkit-user-select: none;
+-khtml-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+user-select: none;
+outline: 0;
+}
+.woocommerce-product-gallery__image {
+    .wp-post-image {
+        max-width: 600px;
+        width: 100%;
+        height: auto;
+    }
+}
+
+input[type="radio"] {
+    margin-right: 10px;
+}
+
+.show {
+    display: block !important;
+}
+.z-index{
+    z-index: 999 !important;
+}

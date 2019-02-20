@@ -11,11 +11,11 @@ get_header(); ?>
 
 		<main id="main" class="site-main" role="main">
 
-			<div class="error-404 not-found">
+			<div class="error-404 not-found" style="margin: 0 400px;">
 
 				<div class="page-content">
 
-				<video autoplay muted loop id="myVideo"  style="width: 1080px;margin: 0 auto;display: block;">
+				<video autoplay muted loop id="myVideo"  style="width: 100%;margin: 0 auto;display: block;">
                 	<source src="<?php echo get_stylesheet_directory_uri(); ?>/assets/videos/404.mp4" type="video/mp4">
             	</video>
 

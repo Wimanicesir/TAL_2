@@ -324,14 +324,8 @@
       text-align: center;
 
       @media (max-width: 991.98px) {
-        background-image: url($image-location +'/layout/about.jpg');
-        background-position: center;
-        background-size: cover;
-
         div {
-          background-color: rgba(0, 0, 0, 0.75);
           padding: 50px;
-          text-shadow: 2px 2px black;
         }
       }
 
@@ -351,7 +345,7 @@
 
     &__image {
       img {
-        max-height: 500px;
+        max-height: 450px;
         float: right;
         display: block;
       }

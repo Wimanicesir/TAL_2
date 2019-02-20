@@ -2601,9 +2601,9 @@ if ( ! function_exists( 'woocommerce_form_field' ) ) {
 					foreach ( $args['options'] as $option_key => $option_text ) {
 						if ( '' === $option_key ) {
 							// If we have a blank option, select2 needs a placeholder.
-							if ( empty( $args['placeholder'] ) ) {
-								$args['placeholder'] = $option_text ? $option_text : __( 'Choose an option', 'woocommerce' );
-							}
+							//if ( empty( $args['placeholder'] ) ) {
+							//	$args['placeholder'] = $option_text ? $option_text : __( 'Choose an option', 'woocommerce' );
+							//}
 							$custom_attributes[] = 'data-allow_clear="true"';
 						}
 						$options .= '<option value="' . esc_attr( $option_key ) . '" ' . selected( $value, $option_key, false ) . '>' . esc_attr( $option_text ) . '</option>';
@@ -2760,10 +2760,11 @@ if ( ! function_exists( 'wc_dropdown_variation_attribute_options' ) ) {
 			'options'          => false,
 			'attribute'        => false,
 			'product'          => false,
-			'selected'         => true,
+			'selected'         => false,
 			'name'             => '',
 			'id'               => '',
-			'class'            => ''
+			'class'            => '',
+			'show_option_none' => __( 'Choose an option', 'woocommerce' ),
 		) );
 
 		// Get selected value.

@@ -14,21 +14,43 @@
                 display: none;
             }
             select {
-                background-color: $dark-blue;
-                border: 0;
-                -webkit-appearance: none;
-                -moz-appearance: none;
-                text-indent: 1px;
+                cursor: pointer;
+                color: #045181;         
+                text-align: center;         
+                border: 1px solid #045181;           
+                -webkit-appearance: none;            
+                -moz-appearance: none;               
+                text-indent: 1px;               
                 text-overflow: '';
-                color: white;
+                padding-right: 56px;
+                text-indent: 1px;
+                width: 205px;
+            }
+            .value.select{
+                position: relative;
+                &::after {
+                    content: "";
+                    height: 42px;              
+                    position: absolute;            
+                    width: 40px;
+                    top: 0;                   
+                    left: 164px;            
+                    background-image: url("../images/shop/arrow.jpg");                  
+                    pointer-events: none;                    
+                    cursor: pointer;
+                }
             }
 
         }
+        .woocommerce-variation.single_variation{
+            position: relative !important;
+        }
         .woocommerce-variation-price {
             position: absolute;
-            top: 40px;
+            top: -163px;
             color: $dark-blue;
             font-size: 25px;
+            margin-top: 9px;
         }
 
         .price,

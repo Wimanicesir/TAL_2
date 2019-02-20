@@ -11,7 +11,7 @@
   a {
     color: $light-blue;
     font-family: headerFont;
-    font-size: 41px;
+    font-size: calc(30px + 1.1vw);
     padding: 0 50px;
     text-decoration: none;
   }
@@ -24,6 +24,10 @@
 .primary-navigation {
   height: 116px;
   border-bottom: 0.5px solid rgba(1, 1, 1, 0.1);
+}
+
+#menu-primary-menu-1 {
+  padding-left: 0;
 }
 
 .menu.nav-menu {

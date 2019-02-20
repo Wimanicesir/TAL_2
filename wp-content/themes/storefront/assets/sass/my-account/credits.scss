@@ -1,0 +1,46 @@
+.page-id-575 {
+    .table-offers {
+        position: absolute;
+        left: -600px;
+        opacity: 0;
+    }
+
+    .credits {
+        margin-top: 100px;
+
+        &__text {
+            position: absolute;
+            margin-left: 100px;
+        }
+
+
+
+        &__form {
+            max-width: 450px;
+            margin: 0 auto;
+            min-width: 200px;
+            border: 0.5px solid grey;
+
+            &__title {
+                text-align: center;
+                background-color: $light-green;
+                padding: 15px 0;
+                h2 {
+                    color: $light-yellow;
+                }
+            }
+            &__row {
+                margin: 30px;
+                font-weight: bold;
+                &__label {
+                    font-size: calc(16px + 0.5vw);
+                }
+                &__price {
+                    font-size: calc(16px + 0.5vw);
+                    float: right;
+                }
+                
+            }
+        }
+    }
+}

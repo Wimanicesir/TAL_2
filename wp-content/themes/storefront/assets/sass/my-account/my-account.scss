@@ -1,0 +1,104 @@
+.woocommerce-account {
+    .entry-title {
+        display: none;
+    }
+    .my-account {
+        padding: 75px 200px;
+
+        &__intro {
+            padding-bottom:20px;
+            p {
+    
+                a {
+                    color: $light-green;
+                }
+    
+            }
+    
+        }
+        &__buttons {
+
+            &__button {
+              cursor: pointer;
+              &:hover{
+                  position: relative;
+                  top: -5px;
+                  transition: all 0.5s ease;
+              }
+              position: relative;
+              top:0px;
+              transition: all 0.5s ease-out;
+    
+                &__image{
+                    img {
+                        max-width: 100%;
+                    }
+                }
+                &__text{
+                    text-align: center;
+                    border-bottom: 0.5px solid grey;
+                    border-left: 0.5px solid grey;
+                    border-right: 0.5px solid grey;
+                    border-top: none;
+                    padding-top: 20px;
+    
+                    h1 {
+                        font-size: 1.5rem;
+                    }
+                    p {
+                        font-size: 1.25rem
+                    }
+    
+                }
+    
+            }
+    
+        }
+
+    }
+}
+
+.my-account {
+
+    &__nav{
+        width: 100%;
+        height: 40px;
+        background-color: $dark-blue;
+        padding-top: 10px;
+        color:white;
+        ul{
+            padding-left: 200px;
+
+            li {
+                float:left;
+                list-style: none;
+                padding-right: 20px;
+                a {
+                    cursor: pointer;
+                    color:#fff;
+                    &:hover{
+                        text-decoration: none;
+                        color:$light-green;
+                    }
+                }
+                a.active {
+                    color:$light-green !important;
+                }
+            }
+        }
+
+        span {
+            cursor: pointer;
+            margin-top: -17px;
+            margin-right: -68px;
+            float: right;
+            &:hover{
+                color:$light-green;
+            }
+        }
+    }
+    
+  
+
+
+}
