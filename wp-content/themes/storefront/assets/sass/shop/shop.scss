@@ -110,6 +110,20 @@
     outline: 0;
   }
 }
+.single-product {
+  .product_title{
+    position: relative;
+  }
+}
+.variation-price {
+  position: absolute;
+  top: 50px;
+  font-size: 25px;
+  left: 0;
+}
+.woocommerce-variation-price {
+  display: none;
+}
 
 // Related product
 .related.products {

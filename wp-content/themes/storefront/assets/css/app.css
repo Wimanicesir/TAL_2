@@ -417,6 +417,18 @@
   .product * {
     outline: 0; }
 
+.single-product .product_title {
+  position: relative; }
+
+.variation-price {
+  position: absolute;
+  top: 50px;
+  font-size: 25px;
+  left: 0; }
+
+.woocommerce-variation-price {
+  display: none; }
+
 .related.products > h2:first-child {
   text-align: left !important;
   padding-left: 30px;
@@ -503,7 +515,7 @@
     position: absolute;
     width: 40px;
     top: 0;
-    left: 164px;
+    left: 103px;
     background-image: url("../images/shop/arrow.jpg");
     pointer-events: none;
     cursor: pointer; }
@@ -896,7 +908,7 @@ body.login {
     position: absolute;
     margin-left: 100px; }
   .page-id-575 .credits__form {
-    max-width: 600px;
+    max-width: 450px;
     margin: 0 auto;
     min-width: 200px;
     border: 0.5px solid grey; }
