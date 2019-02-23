@@ -295,6 +295,9 @@
   display: block;
 }
 
+.contact {
+  background-color: #51d0a1;
+}
 .contact__left {
   background-color: #51d0a1;
 }
@@ -502,16 +505,19 @@
 }
 
 .single-product .product_title {
-  position: relative; }
+  position: relative;
+}
 
 .variation-price {
   position: absolute;
   top: 50px;
   font-size: 25px;
-  left: 0; }
+  left: 0;
+}
 
 .woocommerce-variation-price {
-  display: none; }
+  display: none;
+}
 
 .related.products > h2:first-child {
   text-align: left !important;
@@ -599,20 +605,6 @@
   width: 205px;
 }
 .single-product .summary.entry-summary .variations .value.select {
-<<<<<<< Updated upstream
-  position: relative; }
-  .single-product .summary.entry-summary .variations .value.select::after {
-    content: "";
-    height: 42px;
-    position: absolute;
-    width: 40px;
-    top: 0;
-    left: 103px;
-    background-image: url("../images/shop/arrow.jpg");
-    pointer-events: none;
-    cursor: pointer; }
-
-=======
   position: relative;
 }
 .single-product .summary.entry-summary .variations .value.select::after {
@@ -621,12 +613,11 @@
   position: absolute;
   width: 40px;
   top: 0;
-  left: 164px;
+  left: 103px;
   background-image: url("../images/shop/arrow.jpg");
   pointer-events: none;
   cursor: pointer;
 }
->>>>>>> Stashed changes
 .single-product .summary.entry-summary .woocommerce-variation.single_variation {
   position: relative !important;
 }
@@ -1091,31 +1082,6 @@ body.login {
   opacity: 0;
 }
 .page-id-575 .credits {
-<<<<<<< Updated upstream
-  margin-top: 100px; }
-  .page-id-575 .credits__text {
-    position: absolute;
-    margin-left: 100px; }
-  .page-id-575 .credits__form {
-    max-width: 450px;
-    margin: 0 auto;
-    min-width: 200px;
-    border: 0.5px solid grey; }
-    .page-id-575 .credits__form__title {
-      text-align: center;
-      background-color: #51d0a1;
-      padding: 15px 0; }
-      .page-id-575 .credits__form__title h2 {
-        color: #fbfd36; }
-    .page-id-575 .credits__form__row {
-      margin: 30px;
-      font-weight: bold; }
-      .page-id-575 .credits__form__row__label {
-        font-size: calc(16px + 0.5vw); }
-      .page-id-575 .credits__form__row__price {
-        font-size: calc(16px + 0.5vw);
-        float: right; }
-=======
   margin-top: 100px;
 }
 .page-id-575 .credits__text {
@@ -1147,7 +1113,6 @@ body.login {
   font-size: calc(16px + 0.5vw);
   float: right;
 }
->>>>>>> Stashed changes
 
 @font-face {
   font-family: avenirH;
@@ -1513,30 +1478,31 @@ input[type=radio] {
   padding-top: 15px;
   padding-bottom: 30px;
 }
-.TAL-footer__sitemap, .TAL-footer__legal {
-  padding-top: 17px;
+.TAL-footer__sitemap, .TAL-footer__legal, .TAL-footer__contact {
+  padding-top: 20px;
 }
-.TAL-footer__sitemap ul, .TAL-footer__legal ul {
+.TAL-footer__sitemap ul, .TAL-footer__legal ul, .TAL-footer__contact ul {
   list-style-type: none;
   padding: 0;
 }
 .TAL-footer__cta {
-  margin-right: 75px;
+  padding-top: 20px;
 }
 .TAL-footer__cta h4 {
   text-align: right;
   font-size: 20px;
 }
-.TAL-footer__cta input {
-  float: right;
+.TAL-footer__cta .mailchimp form div {
+  display: inline-block;
 }
-.TAL-footer__cta button {
-  height: 27px;
-  float: right;
-  margin-left: 20px;
+.TAL-footer__cta p {
+  font-weight: bold;
 }
-.TAL-footer__cta button p {
-  padding-top: 2px;
+.TAL-footer__cta ul {
+  list-style-type: none;
+}
+.TAL-footer__cta ul img {
+  width: 10%;
 }
 
 #cookie-notice #cn-accept-cookie {
@@ -2123,3 +2089,5 @@ select {
 .form-style-1 .required {
   color: red;
 }
+
+/*# sourceMappingURL=app.css.map */

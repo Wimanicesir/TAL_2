@@ -17,7 +17,7 @@
 
 	<footer id="colophon" class="TAL-footer" role="contentinfo">
 		<div class="col-full row">
-            <div class="col-md-3 text-center">
+            <div class="col col-md-3 text-center">
                 <h1 class="footer-logo"><a href="#">The Animation Library</a></h1>
                 <span>&copy; 2019 theanimationlibrary.com</span>
                 <div class="">
@@ -32,7 +32,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-3">
+            <div class="col col-md-2">
                 <div class="TAL-footer__sitemap">
                     <h5>The Animation Library</h5>
                     <ul>
@@ -42,7 +42,7 @@
                     </ul>
                 </div>
             </div>
-            <div class="col-md-3">
+            <div class="col col-md-2">
                 <div class="TAL-footer__legal">
                     <h5>Legal</h5>
                     <ul>
@@ -52,29 +52,52 @@
                     </ul>
                 </div>
             </div>
-            <div class="col-md-3">
+            <div class="col col-md-2">
+                <div class="TAL-footer__contact">
+                    <h5>Contact</h5>
+                    <a href="mailto:hello@theanimationlibrary.com">hello@theanimationlibrary.com</a>
+                </div>
+            </div>
+            <div class="col col-md-3">
                 <div class="TAL-footer__cta">
                     <h5>The best animation tips in your inbox</h5>
-                    <form action="https://theanimationlibrary.us17.list-manage.com/subscribe/post?u=8fd62a0668d6ec2f7d17d69e4&amp;id=8b125fcec9"
-                            method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate"
-                            target="_blank" novalidate>
-                        <button type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="TALbutton btn-yellow hvr-grow-shadow"
-                                action="submit">
-                            <p>Subscribe</p>
-                        </button>
+                    <div class="mailchimp">
+                        <form action="https://theanimationlibrary.us17.list-manage.com/subscribe/post?u=8fd62a0668d6ec2f7d17d69e4&amp;id=8b125fcec9"
+                                method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank">
+                            <!-- <button type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="TALbutton btn-yellow hvr-grow-shadow"
+                                    action="submit">
+                                <p>I want it all!</p>
+                            </button> -->
 
-                        <div id="mc_embed_signup_scroll">
-                            <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="Email" required>
-                        </div>
-                        <div id="mce-responses" class="clear">
-                            <div class="response" id="mce-error-response" style="display:none"></div>
-                            <div class="response" id="mce-success-response" style="display:none"></div>
-                        </div>
+                            <div id="mc_embed_signup_scroll">
+                                <input type="email" name="EMAIL" class="email" id="mce-EMAIL" placeholder="Email" required>
+                            </div>
 
-                        <div style="position: absolute; left: -5000px;" aria-hidden="true">
-                            <input type="text" name="b_8fd62a0668d6ec2f7d17d69e4_8b125fcec9" tabindex="-1" value="">
-                        </div>
-                    </form>
+                            <div id="mce-responses" class="clear">
+                                <div class="response" id="mce-error-response" style="display:none"></div>
+                                <div class="response" id="mce-success-response" style="display:none"></div>
+                            </div>
+
+                            <div class="clear">
+                                <input type="submit" value="I want it all!" name="subscribe" id="mc-embedded-subscribe">
+                            </div>
+                            <div style="position: absolute; left: -5000px;" aria-hidden="true">
+                                <input type="text" name="b_8fd62a0668d6ec2f7d17d69e4_8b125fcec9" tabindex="-1" value="">
+                            </div>
+                        </form>
+                    </div>
+                    <p>Accepted payment methods</p>
+                    <div class="payment-methods">
+                        <ul>
+                            <li><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/credit-cards/visa.svg"/></li>
+                            <li><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/credit-cards/paypal.svg"/></li>
+                            <li><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/credit-cards/mastercard.svg"/></li>
+                            <li><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/credit-cards/maestro.svg"/></li>
+                            <li><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/credit-cards/discover.svg"/></li>
+                            <li><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/credit-cards/amex.svg"/></li>
+                            <li><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/credit-cards/maestro.svg"/></li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </div>
