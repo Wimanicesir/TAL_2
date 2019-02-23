@@ -17,7 +17,7 @@
 
 	<footer id="colophon" class="TAL-footer" role="contentinfo">
 		<div class="row">
-            <div class="col-lg-3 col-md-6 col-12 text-center">
+            <div class="col-xl-3 col-12 order-xl-1 order-12 text-xl-center">
                 <h1 class="footer-logo"><a href="#">The Animation Library</a></h1>
                 <span>&copy; 2019 theanimationlibrary.com</span>
                 <div class="TAL-footer__social">
@@ -35,7 +35,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-2 col-md-6 col-12">
+            <div class="col-xl-2 col-lg-3 col-6 order-2">
                 <div class="TAL-footer__sitemap">
                     <h5>The Animation Library</h5>
                     <ul>
@@ -45,7 +45,7 @@
                     </ul>
                 </div>
             </div>
-            <div class="col-lg-2 col-md-6 col-12">
+            <div class="col-xl-2 col-lg-3 col-6 order-4">
                 <div class="TAL-footer__legal">
                     <h5>Legal</h5>
                     <ul>
@@ -55,22 +55,18 @@
                     </ul>
                 </div>
             </div>
-            <div class="col-lg-2 col-md-6 col-12">
+            <div class="col-xl-2 col-lg-3 col-6 order-6">
                 <div class="TAL-footer__contact">
                     <h5>Contact</h5>
                     <a href="mailto:hello@theanimationlibrary.com">hello@theanimationlibrary.com</a>
                 </div>
             </div>
-            <div class="col-lg-3 col-12">
+            <div class="col-xl-3 col-lg-3 col-6 order-8">
                 <div class="TAL-footer__cta">
                     <h5>The best animation tips in your inbox</h5>
                     <div class="mailchimp">
                         <form action="https://theanimationlibrary.us17.list-manage.com/subscribe/post?u=8fd62a0668d6ec2f7d17d69e4&amp;id=8b125fcec9"
                                 method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank">
-                            <!-- <button type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="TALbutton btn-yellow hvr-grow-shadow"
-                                    action="submit">
-                                <p>I want it all!</p>
-                            </button> -->
 
                             <div id="mc_embed_signup_scroll">
                                 <input type="email" name="EMAIL" class="email" id="mce-EMAIL" placeholder="Email" required>
@@ -88,8 +84,9 @@
                             </div>
                         </form>
                     </div>
-                    <p>Accepted payment methods</p>
+                    
                     <div class="payment-methods">
+                        <p>Accepted payment methods</p>
                         <ul>
                             <li><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/credit-cards/visa.svg"/></li>
                             <li><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/credit-cards/paypal.svg"/></li>
