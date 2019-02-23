@@ -1580,6 +1580,9 @@ input[type=radio] {
     padding: 0 50px;
   }
 
+  .col-12 > h1 {
+    padding-left: 35px;
+  }
   .col-12 > * {
     display: inline;
     text-align: left;

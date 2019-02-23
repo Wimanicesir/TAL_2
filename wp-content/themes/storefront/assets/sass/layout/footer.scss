@@ -149,6 +149,9 @@
     }
 
     .col-12 {
+        > h1 {
+            padding-left: 35px;
+        }
         > * {
             display: inline;
             text-align: left;
