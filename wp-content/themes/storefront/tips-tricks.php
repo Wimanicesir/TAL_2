@@ -33,6 +33,8 @@ foreach ($finalResults as $r) {
     $post_id = $r->ID;
     $tt = get_post_meta($post_id);
     $image = $tt['wpcf-preview-image'][0];
+    $link = $tt['wpcf-link'][0];
+    var_dump($link);exit;
     // $postdate = date('d/m/Y', strtotime($r->post_date_gmt));
     $content = substr(wp_strip_all_tags($r->post_content), 0, 160);
     echo '<div class="col-lg-3 col-md-10 col-sm-9 col-xs-10 center">
