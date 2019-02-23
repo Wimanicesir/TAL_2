@@ -20,14 +20,14 @@
             <div class="col-lg-3 col-md-6 col-12 text-center">
                 <h1 class="footer-logo"><a href="#">The Animation Library</a></h1>
                 <span>&copy; 2019 theanimationlibrary.com</span>
-                <div class="">
-                    <div class="social__facebook">
+                <div class="TAL-footer__social">
+                    <div class="TAL-footer__social__facebook">
                         <a href="https://www.facebook.com/TheAnimationLibrary/" target="_blank"><i class="fa fa-facebook"></i></a>
                     </div>
-                    <div class="social__pinterest">
+                    <div class="TAL-footer__social__pinterest">
                         <a href="https://www.pinterest.com/theanimationlibrary/?eq=The&etslf=6668" target="_blank"><i class="fa fa-pinterest"></i></a>
                     </div>
-                    <div class="social__youtube">
+                    <div class="TAL-footer__social__youtube">
                         <a href="https://www.youtube.com/channel/UCtAT4SE9qxAf_Oxxg5P95Zw" target="_blank"><i class="fa fa-youtube"></i></a>
                     </div>
                 </div>

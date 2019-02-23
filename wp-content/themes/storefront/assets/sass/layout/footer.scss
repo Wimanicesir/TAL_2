@@ -71,4 +71,64 @@
             }
         }
     }
+
+    &__social {
+        z-index: 9999;
+        cursor: pointer;
+        > div {
+            display: inline;
+        }
+        i {
+            width: 45px;
+            height: 45px;
+            margin-bottom: 12px;
+            background: white;
+            text-align: center;
+            padding-top: 13px;
+            border: 1px solid;
+            border-radius: 50%;
+            transition: color 0.5s ease;
+            color: rgba(0, 0, 0, 0.5);
+            &:hover{
+                color: rgba(0, 0, 0, 1);
+                transition: color 0.5s ease;
+            }
+        }
+
+        &__facebook{
+            i{
+            &:hover{
+                color:   #3b5998;
+            }
+            }
+        }
+        &__youtube{
+            i{
+            &:hover{
+                color:   #ff0000;
+            }
+            }
+        }
+        &__pinterest{
+            i{
+            &:hover{
+                color:   #c8232c;
+            }
+            }
+        }
+        &__linkedin{
+            i{
+            &:hover{
+                color:   #0077B5;
+            }
+            }
+        }
+        &__behance{
+            i{
+            &:hover{
+                color:   #053eff;
+            }
+            }
+        }
+    }
 }
