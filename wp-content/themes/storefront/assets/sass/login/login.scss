@@ -69,7 +69,6 @@ body.login {
 .tml-button {
     width: 150px;
     height: 50px;
-    margin: 0 auto;
     display: block;
     border: none;
     cursor: pointer;
@@ -77,8 +76,19 @@ body.login {
 }
 
 .description.indicator-hint {
-    text-align: center;
+    text-align: left;
 }
+.tml-action-register {
+    .tml-links {
+        display: none;
+    }
+}
+.tml-action {
+    .entry-title {
+        margin-top: 30px;   
+    }
+}
+
 .tml-links{
     li{
         list-style: none;
