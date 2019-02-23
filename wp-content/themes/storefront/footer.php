@@ -16,8 +16,8 @@
 	<?php $path = get_site_url(); ?>
 
 	<footer id="colophon" class="TAL-footer" role="contentinfo">
-		<div class="col-full row">
-            <div class="col col-md-3 text-center">
+		<div class="row">
+            <div class="col-lg-3 col-md-6 col-12 text-center">
                 <h1 class="footer-logo"><a href="#">The Animation Library</a></h1>
                 <span>&copy; 2019 theanimationlibrary.com</span>
                 <div class="">
@@ -32,7 +32,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col col-md-2">
+            <div class="col-lg-2 col-md-6 col-12">
                 <div class="TAL-footer__sitemap">
                     <h5>The Animation Library</h5>
                     <ul>
@@ -42,7 +42,7 @@
                     </ul>
                 </div>
             </div>
-            <div class="col col-md-2">
+            <div class="col-lg-2 col-md-6 col-12">
                 <div class="TAL-footer__legal">
                     <h5>Legal</h5>
                     <ul>
@@ -52,13 +52,13 @@
                     </ul>
                 </div>
             </div>
-            <div class="col col-md-2">
+            <div class="col-lg-2 col-md-6 col-12">
                 <div class="TAL-footer__contact">
                     <h5>Contact</h5>
                     <a href="mailto:hello@theanimationlibrary.com">hello@theanimationlibrary.com</a>
                 </div>
             </div>
-            <div class="col col-md-3">
+            <div class="col-lg-3 col-12">
                 <div class="TAL-footer__cta">
                     <h5>The best animation tips in your inbox</h5>
                     <div class="mailchimp">
@@ -78,9 +78,8 @@
                                 <div class="response" id="mce-success-response" style="display:none"></div>
                             </div>
 
-                            <div class="clear">
-                                <input type="submit" value="I want it all!" name="subscribe" id="mc-embedded-subscribe">
-                            </div>
+                            <button class="TAL-footer__cta__subscribe" type="submit" value="I want it all!" name="subscribe" id="mc-embedded-subscribe" action="submit"><p>I want it all!</p></button>
+
                             <div style="position: absolute; left: -5000px;" aria-hidden="true">
                                 <input type="text" name="b_8fd62a0668d6ec2f7d17d69e4_8b125fcec9" tabindex="-1" value="">
                             </div>

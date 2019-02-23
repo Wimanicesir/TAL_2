@@ -1231,25 +1231,49 @@ input[type="radio"] {
   background-color: white;
   border-top: 0.5px solid rgba(1, 1, 1, 0.1);
   padding-top: 15px;
-  padding-bottom: 30px; }
-  .TAL-footer__sitemap, .TAL-footer__legal, .TAL-footer__contact {
-    padding-top: 20px; }
-    .TAL-footer__sitemap ul, .TAL-footer__legal ul, .TAL-footer__contact ul {
-      list-style-type: none;
-      padding: 0; }
-  .TAL-footer__cta {
-    padding-top: 20px; }
-    .TAL-footer__cta h4 {
-      text-align: right;
-      font-size: 20px; }
-    .TAL-footer__cta .mailchimp form div {
-      display: inline-block; }
-    .TAL-footer__cta p {
-      font-weight: bold; }
-    .TAL-footer__cta ul {
-      list-style-type: none; }
-      .TAL-footer__cta ul img {
-        width: 10%; }
+  padding-bottom: 30px;
+}
+.TAL-footer__sitemap, .TAL-footer__legal, .TAL-footer__contact {
+  padding-top: 20px;
+  padding-left: 0;
+}
+.TAL-footer__sitemap ul, .TAL-footer__legal ul, .TAL-footer__contact ul {
+  list-style-type: none;
+  padding: 0;
+}
+.TAL-footer__cta {
+  padding-top: 20px;
+}
+.TAL-footer__cta h4 {
+  text-align: right;
+  font-size: 20px;
+}
+.TAL-footer__cta p {
+  font-weight: bold;
+  margin: 0;
+}
+.TAL-footer__cta .mailchimp form div {
+  display: inline-block;
+}
+.TAL-footer__cta ul {
+  list-style-type: none;
+  padding: 0;
+}
+.TAL-footer__cta ul li {
+  display: inline;
+  padding: 0 5px;
+}
+.TAL-footer__cta ul li img {
+  width: 30px;
+}
+.TAL-footer__cta__subscribe {
+  background-color: #2ab27b;
+  border-color: #2ab27b;
+}
+.TAL-footer__cta__subscribe:hover {
+  background-color: #20895e;
+  border-color: #20895e;
+}
 
 #cookie-notice #cn-accept-cookie {
   background-color: #51d0a1; }
