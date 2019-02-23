@@ -426,6 +426,9 @@
 .social__behance i:hover {
   color: #053eff;
 }
+.social__instagram i:hover {
+  color: #d6249f;
+}
 
 .sku_wrapper,
 .widgettitle,

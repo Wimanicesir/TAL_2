@@ -41,12 +41,8 @@ $shop_page_url = get_permalink( woocommerce_get_page_id( 'shop' ) );
             <div class="social__pinterest">
                 <a href="https://www.pinterest.com/theanimationlibrary/?eq=The&etslf=6668" target="_blank"><i class="fa fa-pinterest"></i></a>
             </div>
-            <div class="social__linkedin">
-                <a href="https://www.linkedin.com/in/theanimationlibrary-theanimationlibrary-a04aba153/" target="_blank"><i
-                        class="fa fa-linkedin"></i></a>
-            </div>
-            <div class="social__behance">
-                <a href="https://www.behance.net/theanimatiab51" target="_blank"><i class="fa fa-behance"></i></a>
+            <div class="social__instagram">
+                <a href="https://www.instagram.com/theanimationlibrary" target="_blank"><i class="fa fa-instagram"></i></a>
             </div>
         </div>
         <div class="welcome__splash">
