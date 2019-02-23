@@ -22,6 +22,10 @@
     padding-top: 15px;
     padding-bottom: 30px;
 
+    .col-md-6 {
+        margin: 0 auto;
+    }
+
     &__sitemap, &__legal, &__contact {
         padding-top: 20px;
         padding-left: 0;
@@ -63,11 +67,11 @@
         }
 
         &__subscribe {
-            background-color: $brand-success;
-            border-color: $brand-success;
+            background-color: $light-green;
+            border-color: $light-green;
             &:hover {
-                background-color: darken($brand-success, 10%);
-                border-color: darken($brand-success, 10%);
+                background-color: darken($light-green, 10%);
+                border-color: darken($light-green, 10%);
             }
         }
     }
@@ -97,37 +101,44 @@
 
         &__facebook{
             i{
-            &:hover{
-                color:   #3b5998;
-            }
+                &:hover{
+                    color: #3b5998;
+                }
             }
         }
         &__youtube{
             i{
-            &:hover{
-                color:   #ff0000;
-            }
+                &:hover{
+                    color: #ff0000;
+                }
             }
         }
         &__pinterest{
             i{
-            &:hover{
-                color:   #c8232c;
-            }
+                &:hover{
+                    color: #c8232c;
+                }
             }
         }
         &__linkedin{
             i{
-            &:hover{
-                color:   #0077B5;
-            }
+                &:hover{
+                    color: #0077B5;
+                }
             }
         }
         &__behance{
             i{
-            &:hover{
-                color:   #053eff;
+                &:hover{
+                    color: #053eff;
+                }
             }
+        }
+        &__instagram{
+            i{
+                &:hover{
+                    color:#d6249f;
+                }
             }
         }
     }

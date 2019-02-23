@@ -1486,6 +1486,9 @@ input[type=radio] {
   padding-top: 15px;
   padding-bottom: 30px;
 }
+.TAL-footer .col-md-6 {
+  margin: 0 auto;
+}
 .TAL-footer__sitemap, .TAL-footer__legal, .TAL-footer__contact {
   padding-top: 20px;
   padding-left: 0;
@@ -1520,12 +1523,12 @@ input[type=radio] {
   width: 30px;
 }
 .TAL-footer__cta__subscribe {
-  background-color: #2ab27b;
-  border-color: #2ab27b;
+  background-color: #51d0a1;
+  border-color: #51d0a1;
 }
 .TAL-footer__cta__subscribe:hover {
-  background-color: #20895e;
-  border-color: #20895e;
+  background-color: #33bb89;
+  border-color: #33bb89;
 }
 .TAL-footer__social {
   z-index: 9999;
@@ -1564,6 +1567,9 @@ input[type=radio] {
 }
 .TAL-footer__social__behance i:hover {
   color: #053eff;
+}
+.TAL-footer__social__instagram i:hover {
+  color: #d6249f;
 }
 
 #cookie-notice #cn-accept-cookie {

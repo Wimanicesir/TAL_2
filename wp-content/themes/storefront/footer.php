@@ -30,6 +30,9 @@
                     <div class="TAL-footer__social__youtube">
                         <a href="https://www.youtube.com/channel/UCtAT4SE9qxAf_Oxxg5P95Zw" target="_blank"><i class="fa fa-youtube"></i></a>
                     </div>
+                    <div class="TAL-footer__social__instagram">
+                        <a href="https://www.instagram.com/theanimationlibrary" target="_blank"><i class="fa fa-instagram"></i></a>
+                    </div>
                 </div>
             </div>
             <div class="col-lg-2 col-md-6 col-12">
