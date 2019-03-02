@@ -1093,7 +1093,7 @@ body.login {
   opacity: 0;
 }
 .page-id-575 .credits {
-  margin-top: 100px;
+  margin: 30px 0;
 }
 .page-id-575 .credits__text {
   position: absolute;
@@ -1103,7 +1103,7 @@ body.login {
   max-width: 450px;
   margin: 0 auto;
   min-width: 200px;
-  border: 0.5px solid grey;
+  border: solid 2px #ccd0d2;
 }
 .page-id-575 .credits__form__title {
   text-align: center;
@@ -1123,8 +1123,46 @@ body.login {
 .page-id-575 .credits__form__row__price {
   font-size: calc(16px + 0.5vw);
   float: right;
+  clear: right;
+}
+.page-id-575 .credits__form__row__ppc {
+  font-size: calc(4px + 0.5vw);
+  color: #b1b7ba;
+  float: right;
+  clear: right;
 }
 
+.page-id-591 .orders {
+  width: 75%;
+  margin: 30px 12.5%;
+}
+.page-id-591 .orders table {
+  width: 100%;
+  border: solid 2px #ccd0d2;
+}
+.page-id-591 .orders table thead {
+  font-size: 1.5rem;
+}
+.page-id-591 .orders table thead th {
+  padding: 10px 0;
+  color: #fbfd36;
+  background-color: #51d0a1 !important;
+}
+.page-id-591 .orders table tbody td {
+  padding: 15px 5px;
+  text-align: left;
+}
+.page-id-591 .orders table tbody .order-actions a {
+  color: #fff;
+  background: #009ED8;
+}
+
+@media (min-width: 960px) {
+  .orders {
+    width: 90%;
+    margin: 15px 10%;
+  }
+}
 @font-face {
   font-family: avenirH;
   src: url("/test/wp-content/themes/storefront/assets/fonts/AEH.ttf");
@@ -2061,6 +2099,20 @@ html:not([dir=rtl]) .noUi-horizontal .noUi-handle {
 
 .buyOptions {
   color: #045181;
+}
+
+.buyCreditsButton {
+  width: 85%;
+  margin: 5% 7.5%;
+  padding: 15px;
+  background-color: #fff;
+  color: #b1b7ba;
+  border-color: #ccd0d2;
+  border: solid 2px;
+}
+.buyCreditsButton:hover {
+  background-color: #51d0a1;
+  color: #fbfd36;
 }
 
 .response {

@@ -6,7 +6,7 @@
     }
 
     .credits {
-        margin-top: 100px;
+        margin: 30px 0;
 
         &__text {
             position: absolute;
@@ -19,7 +19,7 @@
             max-width: 450px;
             margin: 0 auto;
             min-width: 200px;
-            border: 0.5px solid grey;
+            border: solid 2px $input-border;
 
             &__title {
                 text-align: center;
@@ -38,8 +38,14 @@
                 &__price {
                     font-size: calc(16px + 0.5vw);
                     float: right;
+                    clear: right;
                 }
-                
+                &__ppc {
+                    font-size: calc(4px + 0.5vw);
+                    color: $input-color-placeholder;
+                    float: right;
+                    clear: right;
+                }
             }
         }
     }
